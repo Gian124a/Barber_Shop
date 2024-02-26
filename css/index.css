@@ -234,8 +234,6 @@ main{
     row-gap: 50px;
     padding: 40px 0;
     justify-content: center;
-    top: 300px;
-    opacity: 0;
 }
 .Titulo-Barberos{
     position: relative;
@@ -332,7 +330,6 @@ main{
 }
 .Descripcion-Servicios{
     position: relative;
-    left: -120%;
     display: grid;
     justify-content: center;
     grid-template-rows: 60px 1fr;
@@ -373,15 +370,6 @@ main{
 }
 .Cont-Carta-Servicios{
     position: relative;
-}
-.Cont-Carta-Servicios:nth-child(1){
-    right: -400%;
-}
-.Cont-Carta-Servicios:nth-child(2){
-    right: -300%;
-}
-.Cont-Carta-Servicios:nth-child(3){
-    right: -200%;
 }
 /* Cartas de los servicios */
 .Tittle-Cart-Info, .Duracion, .Cont-Duracion, .Cont-Money, .Opciones-Servicio, .Three-Cart{
@@ -530,7 +518,6 @@ main{
 }
 .Descripcion-Stats{
     position: relative;
-    top: 140%;
     display: grid;
     justify-content: center;
     grid-template-rows: 60px 1fr;
@@ -648,7 +635,6 @@ main{
 }
 .Cont-Titulo-Negocio{
     position: relative;
-    left: -100%;
     text-align: center;
     font-size: 25px;
     font-family: var(--TipografiaTitulo);
@@ -668,7 +654,6 @@ main{
 }
 .Info-Resena-Negocio{
     position: relative;
-    left: -100%;
     text-align: center;
     font-size: 20px;
     font-family: var(--TipografiaPrincipal);
@@ -689,7 +674,6 @@ main{
 }
 .Cartica{
     position: relative;
-    right: -300%;
     background-color: #FFFFFF;
     display: grid;
     grid-template-rows: 100px 1fr;
